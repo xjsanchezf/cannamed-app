@@ -222,31 +222,7 @@
             </objects>
             <point key="canvasLocation" x="2372" y="-1078"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ssf-3g-feZ">
-            <objects>
-                <viewController id="vpy-pl-NAN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="k0i-k5-xam">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqg-7M-clr">
-                                <rect key="frame" x="166" y="236" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="N8b-yA-4f1"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PQQ-Ja-7aw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3215" y="-1078"/>
-        </scene>
-        <!--First-->
+        <!--Inicio-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="CannaMed" customModuleProvider="target" sceneMemberID="viewController">
@@ -254,34 +230,100 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="132" y="426.5" width="150" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="110" y="477.5" width="194" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Or-Vg-k5m">
+                                <rect key="frame" x="0.0" y="44" width="453" height="44"/>
+                                <items>
+                                    <navigationItem title="CannaMed" id="Pc0-nX-FFs">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="first" id="79e-JX-XHu"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <searchBar contentMode="redraw" ambiguous="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="Gjl-H9-Qwo">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="b6y-fV-oW0">
+                                <rect key="frame" x="16" y="161" width="382" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Oxz-WU-L2Z"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Cremas"/>
+                                    <segment title="Pastillas"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="0Or-Vg-k5m" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="5ti-KP-U9m"/>
+                            <constraint firstItem="0Or-Vg-k5m" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="8BN-uw-e7x"/>
+                            <constraint firstItem="0Or-Vg-k5m" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="Kbe-Y5-Vtr"/>
+                            <constraint firstItem="b6y-fV-oW0" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="16" id="ZnL-IN-0Tc"/>
+                            <constraint firstItem="b6y-fV-oW0" firstAttribute="top" secondItem="Gjl-H9-Qwo" secondAttribute="bottom" constant="16" id="bZC-89-Ubx"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="b6y-fV-oW0" secondAttribute="trailing" constant="16" id="yhz-SZ-UjS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Inicio" image="first" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OO3-Rd-zqj">
+            <objects>
+                <viewController id="Sqa-zf-Gl3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vcA-s5-98c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJ6-BE-04U">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="cH6-FP-uwC">
+                                        <barButtonItem key="leftBarButtonItem" image="first" id="RpF-7y-Zwi"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cannamed_oil" translatesAutoresizingMaskIntoConstraints="NO" id="Elv-0m-h3X">
+                                <rect key="frame" x="32" y="120" width="350" height="512"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aceite de cannabis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgT-Q9-Pqa">
+                                <rect key="frame" x="16" y="664" width="382" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S/ 98" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bj-BH-8pN">
+                                <rect key="frame" x="16" y="701" width="382" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5bj-BH-8pN" firstAttribute="leading" secondItem="bnj-mj-YUz" secondAttribute="leading" constant="16" id="J7c-H6-UAG"/>
+                            <constraint firstItem="bnj-mj-YUz" firstAttribute="trailing" secondItem="SgT-Q9-Pqa" secondAttribute="trailing" constant="16" id="L25-Bi-vKG"/>
+                            <constraint firstItem="IJ6-BE-04U" firstAttribute="trailing" secondItem="bnj-mj-YUz" secondAttribute="trailing" id="MIB-oW-dMx"/>
+                            <constraint firstItem="SgT-Q9-Pqa" firstAttribute="top" secondItem="Elv-0m-h3X" secondAttribute="bottom" constant="32" id="T4c-fy-dJF"/>
+                            <constraint firstItem="Elv-0m-h3X" firstAttribute="top" secondItem="IJ6-BE-04U" secondAttribute="bottom" constant="32" id="kT2-7U-iMm"/>
+                            <constraint firstItem="SgT-Q9-Pqa" firstAttribute="leading" secondItem="bnj-mj-YUz" secondAttribute="leading" constant="16" id="lf9-G2-qW3"/>
+                            <constraint firstItem="5bj-BH-8pN" firstAttribute="top" secondItem="SgT-Q9-Pqa" secondAttribute="bottom" constant="8" id="mh7-tJ-KeY"/>
+                            <constraint firstItem="Elv-0m-h3X" firstAttribute="leading" secondItem="bnj-mj-YUz" secondAttribute="leading" constant="32" id="rHh-iD-58O"/>
+                            <constraint firstItem="bnj-mj-YUz" firstAttribute="trailing" secondItem="5bj-BH-8pN" secondAttribute="trailing" constant="16" id="tqq-1d-SVf"/>
+                            <constraint firstItem="IJ6-BE-04U" firstAttribute="top" secondItem="bnj-mj-YUz" secondAttribute="top" id="v70-El-KCi"/>
+                            <constraint firstItem="bnj-mj-YUz" firstAttribute="trailing" secondItem="Elv-0m-h3X" secondAttribute="trailing" constant="32" id="vet-B3-mVt"/>
+                            <constraint firstItem="IJ6-BE-04U" firstAttribute="leading" secondItem="bnj-mj-YUz" secondAttribute="leading" id="xTy-Tr-pjA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bnj-mj-YUz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nko-ce-gYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1554" y="-320"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -340,8 +382,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cannamed_oil" width="512" height="512"/>
         <image name="first" width="30" height="30"/>
         <image name="logo_vertical" width="812" height="512"/>
         <image name="second" width="30" height="30"/>
     </resources>
+    <color key="tintColor" red="0.27843137254901962" green="0.45490196078431372" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
 </document>
