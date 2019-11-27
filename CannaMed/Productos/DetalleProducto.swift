@@ -30,4 +30,22 @@ class DetalleProducto: UIViewController {
         ProductoPrecio.text = producto?.precio
         ProductoDescripcion.text = producto?.descripcion
     }
+    
+    @IBAction func addToCart(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Agregar producto", message: "¿Quieres agregar este producto al carrito?", preferredStyle: .alert)
+        let addButton = UIAlertAction(title: "Aceptar", style: .default, handler: self.add)
+        let cancelButton = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        alert.addAction(addButton)
+        alert.addAction(cancelButton)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func add(alert: UIAlertAction!)
+    {
+        print("Producto agregado")
+    }
+    
+    
+    
 }
