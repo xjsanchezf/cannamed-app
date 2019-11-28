@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="4855" y="-353"/>
         </scene>
-        <!--View Controller-->
+        <!--Recuperar contraseña-->
         <scene sceneID="551-1f-bo5">
             <objects>
                 <viewController id="ipY-lL-hYM" sceneMemberID="viewController">
@@ -190,6 +190,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="U1N-Ce-AUU"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Recuperar contraseña" largeTitleDisplayMode="always" id="Ek3-Ll-AEH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4y4-Od-gfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -382,7 +383,7 @@
             </objects>
             <point key="canvasLocation" x="6476" y="-353"/>
         </scene>
-        <!--View Controller-->
+        <!--Crea tu cuenta-->
         <scene sceneID="pnq-Z0-5ZB">
             <objects>
                 <viewController id="g88-PW-Ak0" sceneMemberID="viewController">
@@ -405,7 +406,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Código médico - paciente" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6ZC-cg-7UN">
-                                <rect key="frame" x="16" y="132.33333333333334" width="382" height="48"/>
+                                <rect key="frame" x="16" y="166.33333333333334" width="382" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="mTJ-B5-GQ5"/>
                                 </constraints>
@@ -414,7 +415,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="username"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa el código brindado por tu médico" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l09-7y-IyC">
-                                <rect key="frame" x="16" y="88" width="382" height="20.333333333333329"/>
+                                <rect key="frame" x="16" y="121.99999999999999" width="382" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -435,6 +436,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wd7-od-4Gm"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Crea tu cuenta" prompt="Paso 2 de 3" largeTitleDisplayMode="always" id="3Sd-3Y-Z1x"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snx-gQ-wGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -643,6 +645,9 @@
                                                     <state key="normal" title="Agregar">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="addToCart:" destination="hZ2-MB-Any" eventType="touchUpInside" id="xCs-wV-gGv"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cG3-eM-qe2">
                                                     <rect key="frame" x="119.66666666666669" y="84" width="95.333333333333314" height="23.666666666666671"/>
@@ -1491,7 +1496,7 @@
         <image name="logo_vertical" width="812" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RD4-eO-bKL"/>
+        <segue reference="JYt-hh-4qz"/>
         <segue reference="xx5-0W-79F"/>
         <segue reference="cl6-Of-iiU"/>
     </inferredMetricsTieBreakers>
