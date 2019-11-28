@@ -60,6 +60,20 @@ class ProductosListado: UIViewController, UITableViewDataSource, UITableViewDele
         print("Producto agregado")
     }
     
+    @IBAction func addNo(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Lo sentimos", message: "Aún no existe esta sección", preferredStyle: .alert)
+        let addNo = UIAlertAction(title: "Aceptar", style: .default, handler: self.no)
+        let cancelButton = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        alert.addAction(addNo)
+        alert.addAction(cancelButton)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func no(alert: UIAlertAction!)
+    {
+        print("Producto agregado")
+    }
     
     
 }
