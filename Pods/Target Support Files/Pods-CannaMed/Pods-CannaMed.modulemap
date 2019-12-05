@@ -1,0 +1,6 @@
+framework module Pods_CannaMed {
+  umbrella header "Pods-CannaMed-umbrella.h"
+
+  export *
+  module * { export * }
+}

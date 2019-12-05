@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264171286D3E41BB3FAE0832 /* Pods_CannaMed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0DF69BB2206179B8804EF9 /* Pods_CannaMed.framework */; };
 		2A00CADB23661283004AC231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A00CADA23661283004AC231 /* AppDelegate.swift */; };
 		2A00CAE023661283004AC231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A00CADE23661283004AC231 /* Main.storyboard */; };
 		2A00CAE323661283004AC231 /* CannaMed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A00CAE123661283004AC231 /* CannaMed.xcdatamodeld */; };
@@ -16,6 +17,9 @@
 		2A0C578A23671C77004D1708 /* ProductoCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C578923671C77004D1708 /* ProductoCelda.swift */; };
 		2A0C578C23671D48004D1708 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C578B23671D48004D1708 /* Producto.swift */; };
 		2A0C578E23673817004D1708 /* DetalleProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C578D23673817004D1708 /* DetalleProducto.swift */; };
+		2E3411B62398966300871F51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E3411B52398966300871F51 /* GoogleService-Info.plist */; };
+		2E3411B923989E0D00871F51 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3411B823989E0D00871F51 /* RegisterViewController.swift */; };
+		2E3411BB23989E3200871F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3411BA23989E3200871F51 /* LoginViewController.swift */; };
 		2E6E51772391FC1B00DC8760 /* Carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E51762391FC1B00DC8760 /* Carrito.swift */; };
 		2E6E51792391FDA600DC8760 /* CarritoCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E51782391FDA600DC8760 /* CarritoCelda.swift */; };
 		2E6E517B2391FE9A00DC8760 /* CarritoListado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E517A2391FE9A00DC8760 /* CarritoListado.swift */; };
@@ -36,12 +40,18 @@
 		2A0C578923671C77004D1708 /* ProductoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCelda.swift; sourceTree = "<group>"; };
 		2A0C578B23671D48004D1708 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		2A0C578D23673817004D1708 /* DetalleProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProducto.swift; sourceTree = "<group>"; };
+		2E3411B52398966300871F51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E3411B823989E0D00871F51 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2E3411BA23989E3200871F51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E6E51762391FC1B00DC8760 /* Carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrito.swift; sourceTree = "<group>"; };
 		2E6E51782391FDA600DC8760 /* CarritoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoCelda.swift; sourceTree = "<group>"; };
 		2E6E517A2391FE9A00DC8760 /* CarritoListado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoListado.swift; sourceTree = "<group>"; };
 		2E6E517C2392027A00DC8760 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
 		2E6E517E2392035400DC8760 /* PedidoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoCelda.swift; sourceTree = "<group>"; };
 		2E6E5180239203E500DC8760 /* PedidosListado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosListado.swift; sourceTree = "<group>"; };
+		A4AD30FAA6235053422591A3 /* Pods-CannaMed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CannaMed.debug.xcconfig"; path = "Target Support Files/Pods-CannaMed/Pods-CannaMed.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0DF69BB2206179B8804EF9 /* Pods_CannaMed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CannaMed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E055BC461407172B7A2E1486 /* Pods-CannaMed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CannaMed.release.xcconfig"; path = "Target Support Files/Pods-CannaMed/Pods-CannaMed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264171286D3E41BB3FAE0832 /* Pods_CannaMed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2346AD8C929DC993A7022B6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4AD30FAA6235053422591A3 /* Pods-CannaMed.debug.xcconfig */,
+				E055BC461407172B7A2E1486 /* Pods-CannaMed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2A00CACE23661283004AC231 = {
 			isa = PBXGroup;
 			children = (
 				2A00CAD923661283004AC231 /* CannaMed */,
 				2A00CAD823661283004AC231 /* Products */,
+				2346AD8C929DC993A7022B6F /* Pods */,
+				6F102DE630C69AD953A6BD77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +96,7 @@
 		2A00CAD923661283004AC231 /* CannaMed */ = {
 			isa = PBXGroup;
 			children = (
+				2E3411B723989D5D00871F51 /* Entrada */,
 				2E6E51752391FBFB00DC8760 /* Carrito */,
 				2E6E51742391F8EB00DC8760 /* Pedidos */,
 				2AFFFF962382108200EF073F /* Perfil */,
@@ -83,6 +106,7 @@
 				2A00CAE423661284004AC231 /* Assets.xcassets */,
 				2A00CAE623661284004AC231 /* LaunchScreen.storyboard */,
 				2A00CAE923661284004AC231 /* Info.plist */,
+				2E3411B52398966300871F51 /* GoogleService-Info.plist */,
 				2A00CAE123661283004AC231 /* CannaMed.xcdatamodeld */,
 			);
 			path = CannaMed;
@@ -106,6 +130,15 @@
 			path = Perfil;
 			sourceTree = "<group>";
 		};
+		2E3411B723989D5D00871F51 /* Entrada */ = {
+			isa = PBXGroup;
+			children = (
+				2E3411B823989E0D00871F51 /* RegisterViewController.swift */,
+				2E3411BA23989E3200871F51 /* LoginViewController.swift */,
+			);
+			path = Entrada;
+			sourceTree = "<group>";
+		};
 		2E6E51742391F8EB00DC8760 /* Pedidos */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +159,14 @@
 			path = Carrito;
 			sourceTree = "<group>";
 		};
+		6F102DE630C69AD953A6BD77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD0DF69BB2206179B8804EF9 /* Pods_CannaMed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A00CAEC23661284004AC231 /* Build configuration list for PBXNativeTarget "CannaMed" */;
 			buildPhases = (
+				0BE09BE5410F7999D8E992BF /* [CP] Check Pods Manifest.lock */,
 				2A00CAD323661283004AC231 /* Sources */,
 				2A00CAD423661283004AC231 /* Frameworks */,
 				2A00CAD523661283004AC231 /* Resources */,
+				02D2364A3A0C9DC869CC94B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A00CAE823661284004AC231 /* LaunchScreen.storyboard in Resources */,
+				2E3411B62398966300871F51 /* GoogleService-Info.plist in Resources */,
 				2A00CAE523661284004AC231 /* Assets.xcassets in Resources */,
 				2A00CAE023661283004AC231 /* Main.storyboard in Resources */,
 			);
@@ -192,11 +236,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D2364A3A0C9DC869CC94B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CannaMed/Pods-CannaMed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CannaMed/Pods-CannaMed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CannaMed/Pods-CannaMed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BE09BE5410F7999D8E992BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CannaMed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A00CAD323661283004AC231 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3411BB23989E3200871F51 /* LoginViewController.swift in Sources */,
 				2A00CADB23661283004AC231 /* AppDelegate.swift in Sources */,
 				2E6E51772391FC1B00DC8760 /* Carrito.swift in Sources */,
 				2E6E51792391FDA600DC8760 /* CarritoCelda.swift in Sources */,
@@ -207,6 +294,7 @@
 				2E6E5181239203E500DC8760 /* PedidosListado.swift in Sources */,
 				2E6E517F2392035400DC8760 /* PedidoCelda.swift in Sources */,
 				2A0C578A23671C77004D1708 /* ProductoCelda.swift in Sources */,
+				2E3411B923989E0D00871F51 /* RegisterViewController.swift in Sources */,
 				2E6E517B2391FE9A00DC8760 /* CarritoListado.swift in Sources */,
 				2A0C578E23673817004D1708 /* DetalleProducto.swift in Sources */,
 			);
@@ -352,6 +440,7 @@
 		};
 		2A00CAED23661284004AC231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AD30FAA6235053422591A3 /* Pods-CannaMed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +458,7 @@
 		};
 		2A00CAEE23661284004AC231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E055BC461407172B7A2E1486 /* Pods-CannaMed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
