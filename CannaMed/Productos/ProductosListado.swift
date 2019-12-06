@@ -20,6 +20,9 @@ class ProductosListado: UIViewController, UITableViewDataSource, UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         productos = Producto.createArrayProductos()
+        
+        
+        
     }
     
     // Pintado de celdas de la tabla de productos
