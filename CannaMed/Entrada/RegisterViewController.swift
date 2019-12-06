@@ -9,25 +9,28 @@
 import UIKit
 import Firebase
 
-class RegisterViewController: UIViewController {
+class Register: UIViewController {
     
-    @IBOutlet weak var emailPaciente: UITextField!
-    @IBOutlet weak var passwordPaciente: UITextField!
+    @IBOutlet weak var emailRegister: UITextField!
+    @IBOutlet weak var passwordRegister: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func registerPressed(_ sender: UIButton) {
-        guard let email = emailPaciente.text, let pass = passwordPaciente.text else {
+        
+        guard let email = emailRegister.text, let pass = passwordRegister.text else {
             return
         }
         
         Auth.auth().createUser(withEmail: email, password: pass) { (user, error) in
+            
             if error != nil {
                 print(error!)
             } else {
                 print("El usuario se ha registrado con éxito!")
+                self.performSegue(withIdentifier: "fromRegisterToHome", sender: self)
             }
         }
     }
