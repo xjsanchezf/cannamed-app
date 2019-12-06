@@ -15,12 +15,16 @@ class DetalleProducto: UIViewController {
     @IBOutlet weak var ProductoNombre: UILabel!
     @IBOutlet weak var ProductoPrecio: UILabel!
     @IBOutlet weak var ProductoDescripcion: UILabel!
+    @IBOutlet weak var addCart: UIButton!
     
     var producto: Producto?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        
+        addCart.layer.cornerRadius = 25
+        
     }
     
     func setUI() {

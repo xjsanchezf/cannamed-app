@@ -32,7 +32,7 @@ class Producto {
                                  marca: "Canopy Growth",
                                  nombre: "Aceite de extracto de THC",
                                  precio: "S/ 98.50",
-                                 descripcion: "Alto en vaciloncito.")
+                                 descripcion: "Suplemento alimenticio orgánico, elaborado con cannabis sativa de forma fitoterapéutica, potenciado con Mantras y Reiki, lo que garantiza que nuestro aceite sea lo más puro posible. Además posee propiedades anti inflamatorias y analgésicas. Contiene todos los aminoácidos y ácidos grasos esenciales que nuestro cuerpo necesita. ALTO EN CBD Vaciloncito +++")
         let producto2 = Producto(imagen: UIImage(named: "aceite-cannabis_2")!,
                                  marca: "Plena",
                                  nombre: "Aceite de extracto de CBD",

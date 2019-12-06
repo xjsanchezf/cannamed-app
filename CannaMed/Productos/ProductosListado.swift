@@ -8,11 +8,11 @@
 
 import UIKit
 
+
 class ProductosListado: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // Enlace para el DataSource y el Delegate
-    @IBOutlet weak var tableView: UITableView!
-    
+    @IBOutlet weak var tableView: UITableView!    
     // Listado de productos
     var productos: [Producto] = []
    
@@ -20,6 +20,7 @@ class ProductosListado: UIViewController, UITableViewDataSource, UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         productos = Producto.createArrayProductos()
+        
         
         
         
