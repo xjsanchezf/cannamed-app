@@ -25,6 +25,9 @@
 		2E6E517D2392027A00DC8760 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E517C2392027A00DC8760 /* Pedido.swift */; };
 		2E6E517F2392035400DC8760 /* PedidoCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E517E2392035400DC8760 /* PedidoCelda.swift */; };
 		2E6E5181239203E500DC8760 /* PedidosListado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E5180239203E500DC8760 /* PedidosListado.swift */; };
+		2EA8B3E7239A57A6002B87CC /* ChangeEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8B3E6239A57A6002B87CC /* ChangeEmail.swift */; };
+		2EA8B3E9239A59B2002B87CC /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8B3E8239A59B2002B87CC /* ChangePassword.swift */; };
+		2EA8B3EB239A5C73002B87CC /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8B3EA239A5C73002B87CC /* ForgotPassword.swift */; };
 		2ED45A00239A28E600E496D9 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED459FF239A28E600E496D9 /* SignIn.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,9 @@
 		2E6E517C2392027A00DC8760 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
 		2E6E517E2392035400DC8760 /* PedidoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoCelda.swift; sourceTree = "<group>"; };
 		2E6E5180239203E500DC8760 /* PedidosListado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosListado.swift; sourceTree = "<group>"; };
+		2EA8B3E6239A57A6002B87CC /* ChangeEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmail.swift; sourceTree = "<group>"; };
+		2EA8B3E8239A59B2002B87CC /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		2EA8B3EA239A5C73002B87CC /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		2ED459FF239A28E600E496D9 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignIn.swift; path = CannaMed/SignIn.swift; sourceTree = SOURCE_ROOT; };
 		A4AD30FAA6235053422591A3 /* Pods-CannaMed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CannaMed.debug.xcconfig"; path = "Target Support Files/Pods-CannaMed/Pods-CannaMed.debug.xcconfig"; sourceTree = "<group>"; };
 		DD0DF69BB2206179B8804EF9 /* Pods_CannaMed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CannaMed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +102,7 @@
 		2A00CAD923661283004AC231 /* CannaMed */ = {
 			isa = PBXGroup;
 			children = (
+				2EA8B3E5239A5786002B87CC /* Firebase */,
 				2E3411B723989D5D00871F51 /* Entrada */,
 				2E6E51752391FBFB00DC8760 /* Carrito */,
 				2E6E51742391F8EB00DC8760 /* Pedidos */,
@@ -157,6 +164,16 @@
 				2E6E51762391FC1B00DC8760 /* Carrito.swift */,
 			);
 			path = Carrito;
+			sourceTree = "<group>";
+		};
+		2EA8B3E5239A5786002B87CC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8B3E6239A57A6002B87CC /* ChangeEmail.swift */,
+				2EA8B3E8239A59B2002B87CC /* ChangePassword.swift */,
+				2EA8B3EA239A5C73002B87CC /* ForgotPassword.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		6F102DE630C69AD953A6BD77 /* Frameworks */ = {
@@ -285,17 +302,20 @@
 			files = (
 				2A00CADB23661283004AC231 /* AppDelegate.swift in Sources */,
 				2E6E51772391FC1B00DC8760 /* Carrito.swift in Sources */,
+				2EA8B3E7239A57A6002B87CC /* ChangeEmail.swift in Sources */,
 				2E6E51792391FDA600DC8760 /* CarritoCelda.swift in Sources */,
 				2A00CAE323661283004AC231 /* CannaMed.xcdatamodeld in Sources */,
 				2E6E517D2392027A00DC8760 /* Pedido.swift in Sources */,
 				2A0C578C23671D48004D1708 /* Producto.swift in Sources */,
 				2ED45A00239A28E600E496D9 /* SignIn.swift in Sources */,
+				2EA8B3E9239A59B2002B87CC /* ChangePassword.swift in Sources */,
 				2A0C57882367188E004D1708 /* ProductosListado.swift in Sources */,
 				2E6E5181239203E500DC8760 /* PedidosListado.swift in Sources */,
 				2E6E517F2392035400DC8760 /* PedidoCelda.swift in Sources */,
 				2A0C578A23671C77004D1708 /* ProductoCelda.swift in Sources */,
 				2E3411B923989E0D00871F51 /* RegisterViewController.swift in Sources */,
 				2E6E517B2391FE9A00DC8760 /* CarritoListado.swift in Sources */,
+				2EA8B3EB239A5C73002B87CC /* ForgotPassword.swift in Sources */,
 				2A0C578E23673817004D1708 /* DetalleProducto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

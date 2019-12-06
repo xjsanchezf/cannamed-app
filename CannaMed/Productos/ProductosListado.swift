@@ -36,6 +36,7 @@ class ProductosListado: UIViewController, UITableViewDataSource, UITableViewDele
         return cell
     }
     
+
     // Envío de data de ProductosListado a DetalleProducto
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let producto = productos[indexPath.row]
