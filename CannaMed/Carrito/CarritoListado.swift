@@ -32,5 +32,20 @@ class CarritoListado: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.setCarrito(carrito: carrito)
         return cell
     }
+    
+    @IBAction func compraProd(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Comprar producto", message: "¿Quieres comprar este producto?", preferredStyle: .alert)
+        let addButton = UIAlertAction(title: "Aceptar", style: .default, handler: self.add)
+        let cancelButton = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        alert.addAction(addButton)
+        alert.addAction(cancelButton)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func add(alert: UIAlertAction!)
+    {
+        print("YAAAAAAAA")
+    }
 
 }
