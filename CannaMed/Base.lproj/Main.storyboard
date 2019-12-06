@@ -348,9 +348,6 @@
                                 <state key="normal" title="Continuar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="g88-PW-Ak0" kind="show" id="pY3-ph-V4W"/>
-                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Código de paciente" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VV7-Ss-ImI">
                                 <rect key="frame" x="16" y="132.33333333333334" width="382" height="48"/>
@@ -390,127 +387,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FVt-va-wK4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6476" y="-353"/>
-        </scene>
-        <!--Crea tu cuenta-->
-        <scene sceneID="pnq-Z0-5ZB">
-            <objects>
-                <viewController id="g88-PW-Ak0" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9ny-E7-aVT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TK-IL-dAn">
-                                <rect key="frame" x="16" y="656" width="382" height="56"/>
-                                <color key="backgroundColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="LpB-bn-YDX"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Continuar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mfC-Bs-72L" kind="show" id="Ijk-LX-Fe6"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Código médico - paciente" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6ZC-cg-7UN">
-                                <rect key="frame" x="16" y="166.33333333333334" width="382" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="mTJ-B5-GQ5"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="username"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa el código brindado por tu médico" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l09-7y-IyC">
-                                <rect key="frame" x="16" y="121.99999999999999" width="382" height="20.333333333333329"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Wd7-od-4Gm" firstAttribute="trailing" secondItem="l09-7y-IyC" secondAttribute="trailing" constant="16" id="BFC-rX-3K9"/>
-                            <constraint firstItem="6ZC-cg-7UN" firstAttribute="leading" secondItem="Wd7-od-4Gm" secondAttribute="leading" constant="16" id="C0f-Uo-9uB"/>
-                            <constraint firstItem="6ZC-cg-7UN" firstAttribute="top" secondItem="l09-7y-IyC" secondAttribute="bottom" constant="24" id="Hl9-hZ-hKu"/>
-                            <constraint firstItem="l09-7y-IyC" firstAttribute="top" secondItem="Wd7-od-4Gm" secondAttribute="top" constant="24" id="RpU-jc-QXZ"/>
-                            <constraint firstItem="7TK-IL-dAn" firstAttribute="leading" secondItem="Wd7-od-4Gm" secondAttribute="leading" constant="16" id="SbI-MZ-nmt"/>
-                            <constraint firstItem="l09-7y-IyC" firstAttribute="leading" secondItem="Wd7-od-4Gm" secondAttribute="leading" constant="16" id="Tae-zB-t1z"/>
-                            <constraint firstItem="6ZC-cg-7UN" firstAttribute="top" secondItem="l09-7y-IyC" secondAttribute="bottom" constant="24" id="ZbC-gS-DYJ"/>
-                            <constraint firstItem="Wd7-od-4Gm" firstAttribute="trailing" secondItem="6ZC-cg-7UN" secondAttribute="trailing" constant="16" id="hhc-S6-hhK"/>
-                            <constraint firstItem="Wd7-od-4Gm" firstAttribute="bottom" secondItem="7TK-IL-dAn" secondAttribute="bottom" constant="24" id="yiq-bI-0HA"/>
-                            <constraint firstItem="Wd7-od-4Gm" firstAttribute="trailing" secondItem="7TK-IL-dAn" secondAttribute="trailing" constant="16" id="zkr-w0-0ep"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Wd7-od-4Gm"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Crea tu cuenta" prompt="Paso 2 de 3" largeTitleDisplayMode="always" id="3Sd-3Y-Z1x"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="snx-gQ-wGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7301" y="-355"/>
-        </scene>
-        <!--Crea tu cuenta-->
-        <scene sceneID="gh6-hQ-zPt">
-            <objects>
-                <viewController id="mfC-Bs-72L" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="G9y-db-jhW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahora, crea una contraseña" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kS0-qH-ZGy">
-                                <rect key="frame" x="16" y="121.99999999999999" width="382" height="20.333333333333329"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4oe-Ok-dmb">
-                                <rect key="frame" x="16" y="166.33333333333334" width="382" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="Jps-yz-WkD"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8u-4i-4Rt">
-                                <rect key="frame" x="16" y="656" width="382" height="56"/>
-                                <color key="backgroundColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="RzX-yX-7kh"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Continuar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="hGo-wg-DnY" kind="showDetail" id="SxR-wH-t7z"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="4oe-Ok-dmb" firstAttribute="top" secondItem="kS0-qH-ZGy" secondAttribute="bottom" constant="24" id="XCV-s0-6SW"/>
-                            <constraint firstItem="kS0-qH-ZGy" firstAttribute="leading" secondItem="Qaf-1H-Odl" secondAttribute="leading" constant="16" id="a5J-Is-awe"/>
-                            <constraint firstAttribute="trailing" secondItem="4oe-Ok-dmb" secondAttribute="trailing" constant="16" id="awY-rx-EqH"/>
-                            <constraint firstItem="4oe-Ok-dmb" firstAttribute="leading" secondItem="Qaf-1H-Odl" secondAttribute="leading" constant="16" id="eHs-s3-vX6"/>
-                            <constraint firstItem="s8u-4i-4Rt" firstAttribute="leading" secondItem="G9y-db-jhW" secondAttribute="leading" constant="16" id="mNQ-aa-H1R"/>
-                            <constraint firstAttribute="trailing" secondItem="kS0-qH-ZGy" secondAttribute="trailing" constant="16" id="mfg-vj-UkO"/>
-                            <constraint firstItem="kS0-qH-ZGy" firstAttribute="top" secondItem="Qaf-1H-Odl" secondAttribute="top" constant="24" id="oyL-HK-wRm"/>
-                            <constraint firstItem="Qaf-1H-Odl" firstAttribute="trailing" secondItem="s8u-4i-4Rt" secondAttribute="trailing" constant="16" id="vZd-1G-bHb"/>
-                            <constraint firstItem="Qaf-1H-Odl" firstAttribute="bottom" secondItem="s8u-4i-4Rt" secondAttribute="bottom" constant="24" id="wgk-nb-NUb"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Qaf-1H-Odl"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Crea tu cuenta" prompt="Paso 3 de 3" largeTitleDisplayMode="always" id="Owp-cN-Ioy">
-                        <barButtonItem key="backBarButtonItem" title="Volver" id="I4S-Aa-5Rj"/>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uJ8-2m-Yxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8064" y="-354"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1Y6-5n-Rb0">
