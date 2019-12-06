@@ -17,6 +17,7 @@
 		2A0C578A23671C77004D1708 /* ProductoCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C578923671C77004D1708 /* ProductoCelda.swift */; };
 		2A0C578C23671D48004D1708 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C578B23671D48004D1708 /* Producto.swift */; };
 		2A0C578E23673817004D1708 /* DetalleProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C578D23673817004D1708 /* DetalleProducto.swift */; };
+		2E003229239A41B50034A503 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E003228239A41B50034A503 /* ForgotPassword.swift */; };
 		2E3411B62398966300871F51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E3411B52398966300871F51 /* GoogleService-Info.plist */; };
 		2E3411B923989E0D00871F51 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3411B823989E0D00871F51 /* RegisterViewController.swift */; };
 		2E6E51772391FC1B00DC8760 /* Carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E51762391FC1B00DC8760 /* Carrito.swift */; };
@@ -40,6 +41,7 @@
 		2A0C578923671C77004D1708 /* ProductoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCelda.swift; sourceTree = "<group>"; };
 		2A0C578B23671D48004D1708 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		2A0C578D23673817004D1708 /* DetalleProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProducto.swift; sourceTree = "<group>"; };
+		2E003228239A41B50034A503 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		2E3411B52398966300871F51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E3411B823989E0D00871F51 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2E6E51762391FC1B00DC8760 /* Carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrito.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				2E3411B823989E0D00871F51 /* RegisterViewController.swift */,
 				2ED459FF239A28E600E496D9 /* SignIn.swift */,
+				2E003228239A41B50034A503 /* ForgotPassword.swift */,
 			);
 			path = Entrada;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				2E3411B923989E0D00871F51 /* RegisterViewController.swift in Sources */,
 				2E6E517B2391FE9A00DC8760 /* CarritoListado.swift in Sources */,
 				2A0C578E23673817004D1708 /* DetalleProducto.swift in Sources */,
+				2E003229239A41B50034A503 /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
