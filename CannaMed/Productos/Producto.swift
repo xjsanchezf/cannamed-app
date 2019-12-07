@@ -48,11 +48,17 @@ class Producto {
                                  nombre: "Píldoras con 0.3 mg de THC",
                                  precio: "S/ 85.50",
                                  descripcion: "Bajo en calorías, pero mucha bajona.")
+        let producto5 = Producto(imagen: UIImage(named: "aceite-cannabis_1")!,
+                                 marca: "Canopy Growth",
+                                 nombre: "Píldoras con 0.3 mg de THC",
+                                 precio: "S/ 85.50",
+                                 descripcion: "Bajo en calorías, pero mucha bajona.")
         
         tempProductos.append(producto1)
         tempProductos.append(producto2)
         tempProductos.append(producto3)
         tempProductos.append(producto4)
+        tempProductos.append(producto5)
         
         return tempProductos
     }
