@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aGS-wS-4Xw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aGS-wS-4Xw">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -485,10 +485,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0W-Pd-QVw">
                                                     <rect key="frame" x="223.00000000000003" y="84" width="95.333333333333343" height="23.333333333333329"/>
-                                                    <color key="backgroundColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Agregar">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="titleColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -503,7 +502,7 @@
                                                     <rect key="frame" x="119.33333333333331" y="84" width="95.666666666666686" height="23.333333333333329"/>
                                                     <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal" title="Más info">
-                                                        <color key="titleColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="color" keyPath="layer.backgroundColor">
@@ -870,6 +869,9 @@
                         <color key="backgroundColor" red="0.12676864550701569" green="0.35968708729170984" blue="0.1145642462213272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.3411764705882353" green="0.52549019607843139" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -886,8 +888,8 @@
         <scene sceneID="R0J-t6-Bap">
             <objects>
                 <tableViewController id="vi6-LF-xjl" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="37O-GV-JFt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="37O-GV-JFt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
@@ -1228,7 +1230,7 @@
                                         <rect key="frame" x="0.0" y="708" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FNN-dS-EAn" id="tZY-g7-03S">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frecuencia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljb-ct-FyT">
@@ -1261,7 +1263,7 @@
                                         <rect key="frame" x="0.0" y="788" width="375" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jm5-4V-YgN" id="D7K-F8-d64">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="63.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5d-AB-Ynx">
@@ -1297,7 +1299,7 @@
                                         <rect key="frame" x="0.0" y="852" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G0J-i6-pUh" id="28Y-hg-6MV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqO-c0-dqj">
@@ -1556,11 +1558,11 @@
             <objects>
                 <viewController id="Vs7-R4-q3I" customClass="PedidosListado" customModule="CannaMed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="njK-fF-WoZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En construcción" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jK-29-Doq">
-                                <rect key="frame" x="16" y="156" width="343" height="557"/>
+                                <rect key="frame" x="16" y="16" width="343" height="557"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1681,11 +1683,11 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tP6-te-LhM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Pedidos" image="022-list" id="K0D-FW-Fcg"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="9py-m1-WnW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="9py-m1-WnW">
                         <rect key="frame" x="0.0" y="44" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.38263177871704102" green="0.5189281702041626" blue="0.37658494710922241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="barTintColor" red="0.38263177869999998" green="0.51892817020000004" blue="0.37658494710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.3411764706" green="0.52549019610000003" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -1715,6 +1717,7 @@
         <image name="logo_vertical" width="812" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="pth-He-PqZ"/>
         <segue reference="q9y-pA-lq8"/>
         <segue reference="eJZ-g6-w2x"/>
         <segue reference="1je-gi-hek"/>
